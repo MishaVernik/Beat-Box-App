@@ -1,0 +1,132 @@
+﻿<Window x:Class="MusicApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="" Height="394" Width="408" MaxWidth="408" MaxHeight="394" MinHeight="394" MinWidth="408" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FFE26565" ForceCursor="True" KeyDown="Window_KeyDown" KeyUp="Window_KeyUp" Icon="/MusicApp;component/bin/Debug/Img/icon3.png" Loaded="Window_Loaded">
+    <Grid Height="356" Width="395" MaxHeight="394" MaxWidth="408" DataContext="{Binding}">
+        <Button Height="66" HorizontalAlignment="Left" Margin="147,53,0,0" Name="button2" VerticalAlignment="Top" Width="94" Click="button2_Click" BorderBrush="#FFC4A4A4" DataContext="{Binding ElementName=button2}">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF00FFD8" Offset="0.312" />
+                    <GradientStop Color="#FF2A9080" Offset="1" />
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label Content="MusicBass" Height="68" HorizontalAlignment="Left" Margin="91,-11,0,0" Name="label1" VerticalAlignment="Top" Width="208" FontFamily="Bauhaus 93" FontSize="40" FontWeight="Bold" FontStyle="Normal" Foreground="#FFE24040" />
+        <CheckBox Content="Sound" Height="33" HorizontalAlignment="Left" Margin="307,333,0,0" Name="checkBox1" VerticalAlignment="Top" Width="73" FontFamily="Bauhaus 93" Foreground="#FFE25454" FontSize="16" FlowDirection="RightToLeft" ClipToBounds="False" OverridesDefaultStyle="False" SnapsToDevicePixels="False" IsManipulationEnabled="False" IsChecked="True" Click="checkBox1_Click" />
+        <Button BorderBrush="#FFC4A4A4" DataContext="{Binding ElementName=button2}" Height="66" HorizontalAlignment="Left" Margin="283,53,0,0" Name="button3" VerticalAlignment="Top" Width="94" Click="button3_Click_1">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF00FFD8" Offset="0.312" />
+                    <GradientStop Color="#FF2A9080" Offset="1" />
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button BorderBrush="#FFC4A4A4" DataContext="{Binding ElementName=button2}" Height="66" HorizontalAlignment="Left" Margin="12,0,0,132" Name="button11" VerticalAlignment="Bottom" Width="94" Click="button11_Click">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF00FFD8" Offset="0.312" />
+                    <GradientStop Color="#FF2A9080" Offset="1" />
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button BorderBrush="#FFC4A4A4" DataContext="{Binding ElementName=button1}" Height="66" HorizontalAlignment="Left" Margin="12,53,0,0" Name="button4" VerticalAlignment="Top" Width="94" Click="button4_Click_1" IsCancel="False" IsDefault="False">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF00FFD8" Offset="0.312" />
+                    <GradientStop Color="#FF2A9080" Offset="1" />
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button BorderBrush="#FFC4A4A4" DataContext="{Binding ElementName=button2}" Height="66" HorizontalAlignment="Left" Margin="147,158,0,0" Name="button1" VerticalAlignment="Top" Width="94" Click="button1_Click">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF00FFD8" Offset="0.312" />
+                    <GradientStop Color="#FF2A9080" Offset="1" />
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button BorderBrush="#FFC4A4A4" DataContext="{Binding ElementName=button2}" Height="66" HorizontalAlignment="Left" Margin="283,158,0,0" Name="button5" VerticalAlignment="Top" Width="94" Click="button5_Click">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF00FFD8" Offset="0.312" />
+                    <GradientStop Color="#FF2A9080" Offset="1" />
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button BorderBrush="#FFC4A4A4" DataContext="{Binding ElementName=button2}" Height="66" HorizontalAlignment="Left" Margin="12,259,0,0" Name="button6" VerticalAlignment="Top" Width="94" Click="button6_Click">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF00FFD8" Offset="0.312" />
+                    <GradientStop Color="#FF2A9080" Offset="1" />
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button BorderBrush="#FFC4A4A4" DataContext="{Binding ElementName=button2}" Height="66" HorizontalAlignment="Left" Margin="147,259,0,0" Name="button7" VerticalAlignment="Top" Width="94" Click="button7_Click">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF00FFD8" Offset="0.312" />
+                    <GradientStop Color="#FF2A9080" Offset="1" />
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button BorderBrush="#FFC4A4A4" DataContext="{Binding ElementName=button2}" Height="66" HorizontalAlignment="Left" Margin="283,259,0,0" Name="button8" VerticalAlignment="Top" Width="94" Click="button8_Click">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF00FFD8" Offset="0.312" />
+                    <GradientStop Color="#FF2A9080" Offset="1" />
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button BorderBrush="#FFC4A4A4" DataContext="{Binding ElementName=button2}" Height="30" HorizontalAlignment="Left" Name="button9" VerticalAlignment="Top" Width="30" Content="?" FontFamily="Bauhaus 93" FontSize="15" FontWeight="Normal" Foreground="Black" Click="button9_Click_1">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF00FFD8" Offset="0.312" />
+                    <GradientStop Color="#FF2A9080" Offset="1" />
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Button" Height="73" HorizontalAlignment="Left" Margin="118,41,0,0" Name="button10" VerticalAlignment="Top" Width="72" Visibility="Hidden" />
+        <Button Content="Button" Height="42" HorizontalAlignment="Left" Margin="-48,-19,0,0" Name="button12" VerticalAlignment="Top" Width="17" />
+        <Button Content="Button" Height="22" HorizontalAlignment="Left" Margin="-104,-2,0,0" Name="button13" VerticalAlignment="Top" Width="60" />
+        <Button Height="0" HorizontalAlignment="Left" Margin="362,16,0,0" Name="button14" VerticalAlignment="Top" Width="0">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                    <GradientStop Color="Black" Offset="0" />
+                    <GradientStop Color="White" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Foreground>
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FFCB5177" Offset="0.739" />
+                    <GradientStop Color="#FFB494DE" Offset="0.412" />
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button BorderBrush="#FFC4A4A4" DataContext="{Binding ElementName=button1}" Height="4" HorizontalAlignment="Left" IsCancel="False" IsDefault="False" Margin="362,12,0,0" Name="button15" VerticalAlignment="Top" Width="0">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF00FFD8" Offset="0.312" />
+                    <GradientStop Color="#FF2A9080" Offset="1" />
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Grid.OpacityMask>
+            <RadialGradientBrush>
+                <GradientStop Color="#FFC1CB4B" Offset="0.093" />
+                <GradientStop Color="White" Offset="1" />
+                <GradientStop Color="#FF7DAD54" Offset="0.802" />
+                <GradientStop Color="#FFCB4B4B" Offset="0.267" />
+                <GradientStop Color="#FFCB4B4B" Offset="0.186" />
+            </RadialGradientBrush>
+        </Grid.OpacityMask>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0" />
+                <GradientStop Color="White" Offset="1" />
+                <GradientStop Color="#FFA4D1CE" Offset="0.416" />
+                <GradientStop Color="#FFF6FAFA" Offset="1" />
+                <GradientStop Color="#FFC0DFDD" Offset="0.89" />
+            </LinearGradientBrush>
+        </Grid.Background>
+    </Grid>
+</Window>
